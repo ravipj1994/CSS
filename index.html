@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .login{
+            width: 100%;
+            height:min-content;
+            border: 3px solid black;
+            
+            
+        }
+        
+section{
+
+     width: 100%;
+
+}
+           
+           
+         img{
+          
+            margin-top: 20px;
+
+        }
+        label{
+
+            font-size: 25px;
+        }
+        .check{
+            width: auto;
+            height: auto;
+            margin-top: 20px;
+            
+
+        }
+        input{
+
+            width: 99%;
+            height: 25px;
+        }
+        .btn{
+            width: 99%;
+            margin-top: 20px;
+            margin-left: 5px;
+            height: 30px;
+            background-color: teal;
+            color: #fff;
+        }
+        footer{
+            justify-content: space-between;
+            display: flex;
+            background-color: gainsboro;
+            height: 50px;
+            align-items: center;
+           
+        }
+        @media (max-width:500px)
+        {
+            html{
+               background-color:teal;
+            }
+           
+        }
+       @media (max-width:450px){
+
+        a{
+            float: left;
+        }
+       }
+
+
+    </style>
+
+
+</head>
+<body>
+
+   <header> <h2>Login Form</h2></header>
+   <div class="login">
+    
+           <section>
+            
+            
+                <div class="form">
+                   <center> <img src="singn.png" width="150px" height="100px"></center><br>
+            
+            
+            
+            <label>Username</label><br>
+            <input type="text" name="Username" placeholder="Enter Username"><br>
+
+            <label>Password</label><br>
+            <input type="Password" name="Password" placeholder="Enter Password"><br>
+
+            <button class="btn">Login</button><br>
+
+            <input type="checkbox" class="check">Remember me<br>
+        </div>
+
+
+
+    
+        </section>
+
+        <footer><div><button style="background-color: tomato;">cancel</button></div>
+            
+            <div><a href="#">ForgetPassword?</a></div></footer>
+    </div>
+
+
+            
+            
+
+
+       
+</body>
+</html>
